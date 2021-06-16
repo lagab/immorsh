@@ -1,0 +1,28 @@
+
+#header {
+	.search-form {
+		min-width: 250px;
+	}
+	& > .container{
+		flex-direction: column;
+	}
+}
+
+#navbar {
+	a ,
+	.navbar-brand {
+		text-transform: uppercase;
+	}
+	> ul li a {
+		font-size: 12px;
+	}
+}
+.navbar-brand {
+	img {
+		height: 40px;
+	}
+}
+
+.navbar-static-top {
+	margin-bottom: $grid-gutter-width;
+}

@@ -1,0 +1,18 @@
+
+#footer {
+	background-color: #fff;
+
+
+	p {
+		margin-top: 10px;
+		font-size: 13px;
+	}
+
+	.menu-item {
+		a {
+			&[aria-current="page"] {
+				color: $colorLink;
+			}
+		}
+	}
+}
